@@ -1,10 +1,5 @@
-# EXE 2
+# EXE 1
 
-- Arquivo: `exe2/main.c`
-- Teste: Verifica os pinos dos LEDs
+> Objetivo: Criar tasks
 
-> Objetivo: Trabalhar com semáforos entre `tasks`
-
-O código fornecido possui duas `tasks`, uma para acender e apagar o LED R e outra que fica fazendo a leitura do BTN R, sempre que a `btn_1_task` identifica que o botão foi apertado e solto, ela libera a `led_1_task` via o semáforo `xSemaphore_r` para executar.
-
-Faça algo similar para o BTN G e LED G, ao final você deve ter duas novas `tasks`: `btn_2_task`, `led_2_task` e um novo semáforo.
+O código fornecido cria uma `task` para o LED R e faz ele piscar usando `vTaskDelay`, faça algo similar agora para o LED G. **Você deve criar uma nova `task` para controlar o LED G**.
