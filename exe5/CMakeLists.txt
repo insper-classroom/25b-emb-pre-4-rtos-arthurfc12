@@ -1,6 +1,6 @@
-add_executable(exe3
+add_executable(exe5
         main.c
 )
 
-target_link_libraries(exe3 pico_stdlib freertos)
-pico_add_extra_outputs(exe3)
+target_link_libraries(exe5 pico_stdlib freertos)
+pico_add_extra_outputs(exe5)

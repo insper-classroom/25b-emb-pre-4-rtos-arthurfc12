@@ -1,5 +1,7 @@
 # EXE 4
 
+![](diagram.png)
+
 - Arquivo: `exe4/main.c`
 - Teste: Verifica os pinos dos LEDs
 
